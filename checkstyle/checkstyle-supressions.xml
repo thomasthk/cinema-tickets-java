@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+    <!-- Reason: They are both implementation are from
+    an external provider with no defects.  -->
+    <suppress checks="FinalParameters" files="SeatReservationServiceImpl.java"/>
+    <suppress checks="FinalParameters" files="TicketPaymentServiceImpl.java"/>
+    <suppress checks="LineLength" files="TicketPaymentServiceImpl.java"/>
+</suppressions>
